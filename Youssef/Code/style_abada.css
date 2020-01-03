@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 .nav-top {
-   
+
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
@@ -8,73 +13,192 @@
     font-family: Poppins;
     font-size: 8px;
     color: #7C7C7C;
-    
-    
-    
-    
-} 
+}
 
-.nav-top p{
+.nav-top p {
     font-size: 10px;
 }
- body {
-     margin: 0;
- }
 
- .nav-menu ul {
-     list-style: none;
-     display: flex;
-     font-family: Poppins;
-     font-size: 12px;
-     align-items: center;
-     
- }
+body {
+    margin: 0;
+}
 
-  a {
-     text-decoration: none;
-     color: rgb(71, 71, 71);
- }
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    align-items: center;
 
- .nav-menu ul span {
+}
+
+a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.nav-menu ul span {
     background-color: #38ADA9;
-    border-radius: 40px; 
+    border-radius: 40px;
     color: white;
     padding: 15px 20px;
-    
- }
- .logo {
-     width: 60px;
-     height: 60px;
-     margin-left: 100px;
- }
+
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 100px;
+}
 
 .nav-menu ul li {
     margin-right: 12px;
 }
+
 .nav-menu ul li:last-child {
     margin-right: 0;
 }
 
- .nav-menu {
-     display: flex;
-     justify-content: space-around;
-     margin: 10px;
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
 
- }
+h1.page-title {
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #38ADA9;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+.page-content .aboutUs-text {
+    background-image: url(brown-desk.jpg);
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
 
+.page-content .aboutUs-text .glass {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    line-height: 2;
+    position: relative;
+    background-color: rgba(56, 172, 168, 0.5);
+    min-height: calc(70vh - 20px);
+}
 
- /* menu mobile */
- @media (max-width: 770px) {
-     .nav-menu ul li {
-         display: none;
-     }
+.page-content .aboutUs-text h2 {
+    color: #E1F8DB;
+}
 
-     .logo {
+.our-achievement {
+    margin: 50px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-achievement h1 {
+    font-weight: normal;
+}
+
+.our-achievement .achieves {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.our-achievement .achieves .achieve {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.our-achievement .achieves .achieve .number {
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 3px;
+}
+
+.our-achievement .achieves .achieve .of {
+    color: #38ADA9;
+    font-size: 1.5em;
+    padding: 3px;
+    font-weight: normal;
+}
+
+.our-achievement .achieves .achieve .because {
+    text-align: center;
+    padding: 3px;
+    line-height: 2;
+}
+
+.footer {
+    color: #3E3E3E;
+    background-color: #FAFAFA;
+    padding: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6em;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer .row .column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.footer .row .column h2 {
+    color: black;
+    font-family: 1em;
+}
+
+.footer .row .column div {
+    padding: 6px 0;
+}
+    /* menu mobile */
+@media (max-width: 770px) {
+
+    .nav-menu ul li {
+        display: none;
+    }
+
+    .logo {
         margin-left: 0px;
     }
 
-    .nav-top p{
+    .nav-top p {
         font-size: 8px;
     }
- }
+
+    .our-achievement .achieves {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer .row .column {
+        justify-content: center;
+        align-items: center;
+    }
+}
