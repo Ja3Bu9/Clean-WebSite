@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* Header Style */
@@ -23,46 +24,70 @@ body {
 .nav-top p {
     font-size: 10px;
 }
-.nav-menu ul {
-    list-style: none;
-    display: flex;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 12px;
-    align-items: center;
-
-}
-
-a {
-    text-decoration: none;
-    color: rgb(71, 71, 71);
-}
-
-.nav-menu ul span {
-    background-color: #38ADA9;
-    border-radius: 40px;
-    color: white;
-    padding: 15px 20px;
-
-}
-
-.logo {
-    width: 60px;
-    height: 60px;
-    margin-left: 100px;
-}
-
-.nav-menu ul li {
-    margin-right: 12px;
-}
-
-.nav-menu ul li:last-child {
-    margin-right: 0;
-}
 
 .nav-menu {
     display: flex;
     justify-content: space-around;
     margin: 10px;
+}
+
+.nav-menu .logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 100px;
+}
+
+.nav-menu .nav-links a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.nav-menu .nav-links a:hover{
+    color: #38ADA9;
+}
+
+.nav-menu .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu .nav-links ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+} 
+
+.nav-menu .nav-links ul li {
+    margin-right: 12px;
+    white-space: nowrap;
+    text-align: center;
+}   
+
+.nav-menu .nav-links .call-action {
+    background-color: #38ADA9;
+    border: 2px solid #38ADA9;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 20px;
+    white-space: nowrap;
+}
+
+.nav-menu .nav-links .call-action:hover {
+    color: rgb(71, 71, 71);
+    border: 2px solid #38ADA9;
+    background-color: white;
+}
+
+#menu-icon {
+    display: none;
+    font-size:45px;
+    color:#38ADA9;
+     margin-left: 30px;
 }
 
 /* Green bare in each pages as title */
@@ -223,6 +248,7 @@ h1.page-title {
     text-align: center;
     margin-top: auto;
     width: 100%;
+    text-decoration: none;
 }
 /* Footer Style */
 .footer {
@@ -232,6 +258,13 @@ h1.page-title {
     font-family: 'Poppins', sans-serif;
     font-size: 0.6em;
     margin-top: 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+.footer a:hover{
+    color: #38ADA9;
 }
 
 .footer .row {
@@ -258,18 +291,57 @@ h1.page-title {
 }
 
 @media (max-width: 770px) {
+    .nav-menu{
+        overflow: hidden;
+    }
 
     /* head menu style mobile */
-    .nav-menu ul li {
-        display: none;
+    .nav-menu .nav-links ul {
+        transition: right 1s ease-out;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        position: absolute;
+        top: 0;
+        right: -82%;
+        z-index: 10;
+        background-color: white;
+        font-size: 1.5em;
+        width: 80%;
+        max-height: 90%;
+        box-shadow: #7C7C7C 3px 0 10px;
+        padding-top: 140px;
+    }
+    .nav-menu .nav-links ul li{
+        padding: 20px 0;
+        width: 100%;
+        border-bottom: 2px solid #38ADA9;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+    .nav-menu .nav-links ul li:first-child{
+        border-top: 2px solid #38ADA9;
+    }
+
+    .nav-menu .nav-links ul li a{
+        color: #38ADA9;
     }
 
     .logo {
         margin-left: 0px;
+        position: relative;
+        z-index: 11;
     }
 
     .nav-top p {
         font-size: 8px;
+    }
+
+    #menu-icon {
+        display: block;
+        position: relative;
+        z-index: 11;
     }
 
     /* About us page style mobile */
