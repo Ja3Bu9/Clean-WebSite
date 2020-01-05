@@ -200,17 +200,18 @@ h1.page-title {
     justify-content: center;
     align-items: center;
     margin: 30px 10px;
-    padding: 10px 0 0 0;
+    padding: 20px 0 0 0;
     width: 230px;
     min-height: 400px;
 }
 .pricing-table .pricing-planes .plane .material-icons{
     color: #38ADA9;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 .pricing-table .pricing-planes .plane .place{
     color: #38ADA9;
     font-size: 1.2em;
+    padding: 10px;
 }
 
 .pricing-table .pricing-planes .plane hr{
@@ -342,6 +343,7 @@ h1.page-title {
         display: block;
         position: relative;
         z-index: 11;
+        cursor: pointer;
     }
 
     /* About us page style mobile */
