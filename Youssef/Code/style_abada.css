@@ -75,6 +75,8 @@ body {
     color: white;
     padding: 15px 20px;
     white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-size: .7em;
 }
 
 .nav-menu .nav-links .call-action:hover {
@@ -251,6 +253,120 @@ h1.page-title {
     width: 100%;
     text-decoration: none;
 }
+
+/* Contact Style */
+.contact-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contact-body .contact-address,
+.contact-body .contact-form{
+    border: 1px #B3B3B3 solid;
+    border-radius: 2px;
+    margin: 8px;
+}
+
+
+.contact-body .contact-form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+    padding: 25px;
+    flex-grow: 4;
+}
+
+.contact-body .contact-form .input-group{
+    display: flex;
+}
+.contact-body .contact-form .input-group .input{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.contact-body .contact-form .input-group .input:last-child{
+    margin-right: 0;
+}
+.contact-body .contact-form .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-body .contact-form .input input{
+    outline: none;
+    border-width: 0 0 2px 0;
+    border-color: #38ADA9;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .9em;
+}
+.contact-body .contact-form .input textarea{
+    outline: none;
+    border-width: 0 0 2px 0;
+    border-color: #38ADA9;
+    padding: 5px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .9em;
+}
+.contact-body .contact-form .input input::placeholder,
+.contact-body .contact-form .input textarea::placeholder{
+    color: #BFBFBF;
+}
+.contact-body .contact-form input[type="submit"]{
+    outline: none;
+    border: none;
+    background-color: #38ADA9;
+    color: white;
+    padding: 6px 40px;
+    border-radius: 20px;
+    align-self: flex-end;
+    margin-top: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+}
+.contact-body .contact-form .input label{
+    color: #38ADA9;
+    display: inline-block;
+    width: 80px;
+    box-sizing: border-box;
+}
+
+.contact-body .contact-address{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-grow: 1;
+}
+.contact-body .contact-address .social-media{
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+.contact-body .contact-address .address-info{
+    font-size: 1.1em;
+    color: #3E3E3E;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+.contact-body .contact-address .address-info .contact-type{
+    color: #38ADA9;
+    margin-right: 10px;
+    display: inline-block;
+    width: 55px;
+}
+
+.contact-body .contact-address .map{
+    width: 100%;
+    height: 320px;
+}
+
+
 /* Footer Style */
 .footer {
     color: #3E3E3E;
@@ -298,17 +414,17 @@ h1.page-title {
 
     /* head menu style mobile */
     .nav-menu .nav-links ul {
-        transition: right 1s ease-out;
+        transition: right .2s ease-out;
         flex-direction: column;
         justify-content: center;
         justify-items: center;
         position: absolute;
         top: 0;
-        right: -82%;
+        right: -94%;
         z-index: 10;
         background-color: white;
         font-size: 1.5em;
-        width: 80%;
+        width: 90%;
         max-height: 90%;
         box-shadow: #7C7C7C 3px 0 10px;
         padding-top: 140px;
@@ -329,7 +445,7 @@ h1.page-title {
         color: #38ADA9;
     }
 
-    .logo {
+    .nav-menu .logo {
         margin-left: 0px;
         position: relative;
         z-index: 11;
@@ -352,6 +468,27 @@ h1.page-title {
         flex-direction: column;
     }
 
+
+    /* Pricing Page style mobile */
+    .pricing-table h1{
+        font-size: 1.5em;
+    }
+
+    /* Contact mobile style */
+
+    .contact-body{
+        flex-direction: column;
+    }
+    .contact-body .contact-form .input-group{
+        flex-direction: column;
+    }
+
+    .contact-body .contact-form .input-group .input{
+        margin-right: 0;
+    }
+
+
+    /* Footer style in mobile version */
     .footer .row {
         flex-direction: column;
         justify-content: center;
@@ -364,9 +501,7 @@ h1.page-title {
         align-items: center;
     }
 
-    /* Pricing Page style mobile */
-    .pricing-table h1{
-        font-size: 1.5em;
+    .contact-body .contact-address .address-info{
+        align-self: center;
     }
-
 }
