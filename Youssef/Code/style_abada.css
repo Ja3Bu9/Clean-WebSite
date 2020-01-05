@@ -293,6 +293,7 @@ h1.page-title {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    position: relative;
 }
 .contact-body .contact-form .input input{
     outline: none;
@@ -336,6 +337,20 @@ h1.page-title {
     width: 80px;
     box-sizing: border-box;
 }
+.contact-body .contact-form .input .warning{
+    display: none;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .contact-body .contact-address{
     font-family: 'Poppins', sans-serif;
@@ -362,8 +377,9 @@ h1.page-title {
 }
 
 .contact-body .contact-address .map{
-    width: 100%;
+    width: 96%;
     height: 320px;
+    margin: 0 auto;
 }
 
 
