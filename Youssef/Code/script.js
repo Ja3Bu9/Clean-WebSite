@@ -4,7 +4,7 @@ function showMenu(){
     let menu = document.querySelector(".nav-menu .nav-links ul");
     if (toggle){
         menuIcon.innerHTML = '<i class="fa fa-bars" ></i>'
-        menu.style.right = "-94%"; 
+        menu.style.right = "-104%";
     } else {
         menuIcon.innerHTML = '<i class="fa fa-times" ></i>'
         menu.style.right = "0";
