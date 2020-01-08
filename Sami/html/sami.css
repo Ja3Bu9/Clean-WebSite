@@ -175,7 +175,7 @@
 }
 
 .abt-pic {
-    background-image: url('/html/pictures/pexels-photo-3360701.jpeg');
+    background-image: url(pictures/pexels-photo-3360701.jpeg);
     height: 500px;
     width: 25%;
     background-size: cover;
@@ -406,7 +406,7 @@ section {
 }
 
 .in-projects1 {
-    background-image: url(/html/pictures/cleaning-washing-cleanup-the-ilo-48889.jpeg);
+    background-image: url(pictures/cleaning-washing-cleanup-the-ilo-48889.jpeg);
     width: 370px;
     height: 245px;
     background-size: cover;
@@ -414,7 +414,7 @@ section {
 }
 
 .in-projects2 {
-    background-image: url(/html/pictures/pexels-photo-545014.jpeg);
+    background-image: url(pictures/pexels-photo-545014.jpeg);
     width: 370px;
     height: 245px;
     background-size: cover;
@@ -422,7 +422,7 @@ section {
 }
 
 .in-projects3 {
-    background-image: url(/html/pictures/pexels-photo-1028600.jpeg);
+    background-image: url(pictures/pexels-photo-1028600.jpeg);
     width: 370px;
     height: 245px;
     background-size: cover;
@@ -430,7 +430,7 @@ section {
 }
 
 .in-projects4 {
-    background-image: url(/html/pictures/pexels-photo-271711.jpeg);
+    background-image: url(pictures/pexels-photo-271711.jpeg);
     width: 370px;
     height: 245px;
     background-size: cover;
@@ -522,19 +522,19 @@ section {
 .latest-pic1 {
     width: 350px;
     height: 250px;
-    background-image: url(/html/pictures/professional-house-cleaning-services.jpeg);
+    background-image: url(pictures/professional-house-cleaning-services.jpeg);
     background-size: cover;
 }
 .latest-pic2 {
     width: 350px;
     height: 250px;
-    background-image: url(/html/pictures/The-Best-End-of-Lease-Cleaning-in-Canberra.jpg);
+    background-image: url(pictures/The-Best-End-of-Lease-Cleaning-in-Canberra.jpg);
     background-size: cover;
 }
 .latest-pic3 {
     width: 350px;
     height: 250px;
-    background-image: url(/html/pictures/Lady-cleaner.jpg);
+    background-image: url(pictures/Lady-cleaner.jpg);
     background-size: cover;
 }
 
@@ -803,22 +803,22 @@ box-shadow: 0px 0px 71px -26px rgba(0,0,0,0.75);
 }
 
 .in-posts-pic1{
-    background-image: url(/html/pictures/Declutter-Bins-Clean-Mama.png);
+    background-image: url(/Sami/html/pictures/Declutter-Bins-Clean-Mama.png);
 }
 .in-posts-pic2 {
-    background-image: url(/html/pictures/clean-mama-clutter-challenge.png);
+    background-image: url(/Sami/html/pictures/clean-mama-clutter-challenge.png);
 }
  .in-posts-pic3 {
-    background-image: url(/html/pictures/Declutter-Order-By-Clean-Mama.jpg);
+    background-image: url(/Sami/html/pictures/Declutter-Order-By-Clean-Mama.jpg);
 }
 .in-posts-pic4 {
-    background-image: url(/html//pictures/CM_New-Year-Sale-v2.jpg);
+    background-image: url(/Sami/html//pictures/CM_New-Year-Sale-v2.jpg);
 }
 .in-posts-pic5 {
-    background-image: url(/html/pictures/50-Things-Toss-Or-Donate-By-Clean-Mama.jpg);
+    background-image: url(/Sami/html/pictures/50-Things-Toss-Or-Donate-By-Clean-Mama.jpg);
 }
 .in-posts-pic6 {
-    background-image: url(/html/pictures/CM_Clutter-Handbook-Mockup-01_square_1024x1024@2x.jpg);
+    background-image: url(/Sami/html/pictures/CM_Clutter-Handbook-Mockup-01_square_1024x1024@2x.jpg);
 }
 
 
