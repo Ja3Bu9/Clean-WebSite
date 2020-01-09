@@ -1,0 +1,841 @@
+.nav-poster {
+    width: 100%;
+    height: 660px;
+    background-size: cover;
+
+    background-image: url('pictures/person-looking-searching-clean.jpg');
+    background-repeat: no-repeat;
+    background-position: top -40px;
+}
+
+.nav-poster::before {
+    content: "";
+    background: rgb(56, 173, 169);
+    background: linear-gradient(90deg, rgba(9, 62, 60, 1) 0%, rgba(56, 173, 169, 1) 100%);
+    height: 660px;
+    /*dimension of the shape*/
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 660px;
+}
+
+.nav-poster-text {
+    color: white;
+    font-family: Poppins;
+    width: 30%;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 20%;
+
+
+}
+
+.nav-poster-text h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.nav-poster-text h6, .latest h6 {
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Poppins;
+
+}
+
+.nav-poster .nav-poster-text a {
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    width: 200px;
+    height: 60px;
+    color: #38ADA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+#why {
+    font-family: Poppins;
+    color: #38ADA9;
+    font-weight: 500;
+    text-align: center;
+}
+
+.in-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #38ADA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* icone */
+.svg-inline--fa {
+    width: 50px;
+    color: white;
+}
+
+.container h3,
+.clean-service h1,
+.clean-service h3,
+.team h1,
+.member h4,
+.testimo h1,
+.projects h1,
+.latest h1
+ {
+    font-family: Poppins;
+    font-weight: 500;
+    color: #38ADA9;
+    text-align: center;
+}
+
+.clean-service h3 {
+    font-size: 14px;
+}
+
+.container p,
+.clean-service p {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #7C7C7C;
+}
+
+.clean-service p {
+    text-align: start;
+}
+
+.clean-service,
+.testimo {
+    background-color: #FAFAFA;
+    height: 40%;
+}
+
+.in-clean-service {
+    width: 200px;
+
+}
+
+.clean-service-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    flex-wrap: wrap;
+
+
+}
+
+.clean-service a {
+    background-color: #38ADA9;
+    border-radius: 40px 40px 40px 40px;
+    width: 190px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.button {
+    background-color: #38ADA9;
+    border-radius: 40px 40px 40px 40px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-top: 10px;
+}
+
+.about-clean {
+    display: flex;
+    justify-content: center;
+}
+
+.abt-pic {
+    background-image: url(pictures/pexels-photo-3360701.jpeg);
+    height: 500px;
+    width: 25%;
+    background-size: cover;
+
+}
+
+.abt-info {
+    height: 500px;
+    width: 25%;
+    font-family: Poppins;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.abt-info p {
+    font-size: 12px;
+    margin-top: -10px;
+    color: #7C7C7C;
+}
+
+.svg1 {
+    color: #38ADA9;
+    margin-right: 20px;
+    margin-left: 5px;
+    width: 60px;
+}
+
+.svg2 {
+    color: #38ADA9;
+    margin-right: 20px;
+    margin-left: 15px;
+    width: 45px;
+}
+
+.svg3 {
+    color: #38ADA9;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 50px;
+}
+
+.in-abt-info {
+    display: flex;
+    margin-top: 15px;
+}
+
+.abt-info h1,
+.abt-info h3 {
+    color: #38ADA9;
+
+}
+
+.abt-info h1 {
+    margin-top: -10px;
+}
+
+.abt-info h6 , .latest h6{
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media (max-width: 990px) {
+    .nav-poster {
+        height: 300px;
+
+    }
+
+    .nav-poster::before {
+        height: 300px;
+
+    }
+
+    .nav-poster-text {
+        width: 60%;
+    }
+
+    .nav-poster .nav-poster-text h1 {
+        font-size: 16px;
+
+    }
+
+    .nav-poster .nav-poster-text h6 {
+        font-size: 10px;
+    }
+
+    .nav-poster .nav-poster-text a {
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .abt-pic {
+        display: none;
+    }
+
+    .abt-info {
+        height: 500px;
+        width: 80%;
+        font-family: Poppins;
+
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    background-color: #38ADA9;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+}
+
+.banner span {
+    color: white;
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+.button2 {
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    width: 120px;
+    height: 40px;
+    color: #38ADA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-top: 10px;
+}
+
+.in-team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.in-team img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.testimo .pic {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+
+
+}
+
+
+.member h5 {
+    font-family: Poppins;
+    font-weight: 500;
+    color: #7C7C7C;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.member {
+    margin: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.socials svg {
+    color: #7C7C7C;
+    margin: 2px;
+
+
+}
+
+.socials .svg1 {
+    width: 10px;
+}
+
+.socials .svg2 {
+    width: 16px;
+}
+
+.socials .svg3 {
+    width: 13px;
+}
+
+.socials .svg4 {
+    width: 14px;
+}
+
+.testimo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimo p {
+    text-align: center;
+}
+
+.testimo span {
+    background-color: #38ADA9;
+    width: 250px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+.projects-flex {
+    display: flex;
+    
+}
+
+.in-projects1 {
+    background-image: url(pictures/cleaning-washing-cleanup-the-ilo-48889.jpeg);
+    width: 370px;
+    height: 245px;
+    background-size: cover;
+    position: relative;
+}
+
+.in-projects2 {
+    background-image: url(pictures/pexels-photo-545014.jpeg);
+    width: 370px;
+    height: 245px;
+    background-size: cover;
+    position: relative;
+}
+
+.in-projects3 {
+    background-image: url(pictures/pexels-photo-1028600.jpeg);
+    width: 370px;
+    height: 245px;
+    background-size: cover;
+    position: relative;
+}
+
+.in-projects4 {
+    background-image: url(pictures/pexels-photo-271711.jpeg);
+    width: 370px;
+    height: 245px;
+    background-size: cover;
+    position: relative;
+}
+@media (max-width: 400px) {
+    .about-clean {
+        
+        height: 600px;
+    }}
+@media (max-width: 700px){
+    .about-clean {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .abt-info {
+        height: 500px;
+        font-family: Poppins;
+        margin-left: 0px;
+        
+    }
+    .banner span {
+        color: white;
+        font-size: 30px;
+        margin-right: 0px;
+    }
+    .projects-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .banner {
+        background-color: #38ADA9;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Poppins;
+        text-align: center;
+    }
+    
+    .banner span {
+        color: white;
+        font-size: 16px;
+        
+    }
+
+}
+
+.disc{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 146, 146, 0.719);
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Poppins;
+    font-weight: lighter;
+}
+.in-projects1:hover .disc {
+    visibility: visible;
+    
+}
+.in-projects2:hover .disc {
+    visibility: visible;
+    
+}
+.in-projects3:hover .disc {
+    visibility: visible;
+    
+}
+.in-projects4:hover .disc {
+    visibility: visible;
+    
+}
+
+.latest-pic1 {
+    width: 350px;
+    height: 250px;
+    background-image: url(pictures/professional-house-cleaning-services.jpeg);
+    background-size: cover;
+}
+.latest-pic2 {
+    width: 350px;
+    height: 250px;
+    background-image: url(pictures/The-Best-End-of-Lease-Cleaning-in-Canberra.jpg);
+    background-size: cover;
+}
+.latest-pic3 {
+    width: 350px;
+    height: 250px;
+    background-image: url(pictures/Lady-cleaner.jpg);
+    background-size: cover;
+}
+
+
+.in-latest {
+    width: 350px;
+}
+
+.latest-profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.latest-profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.latest span {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.latest-container {
+    display: block;
+    width: 350px;
+    margin:10px;
+}
+
+.latest-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+.latest h3
+ {
+    font-family: Poppins;
+    font-weight: 500;
+    color: #38ADA9;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+/* request a quote page */
+.befor-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-form {
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 71px -26px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 71px -26px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 71px -26px rgba(0,0,0,0.75);
+    padding-bottom: 30px;
+    
+}
+.divider-line {
+    height: 25px;
+    border-bottom: 1px solid #e6e9ec;
+    margin-bottom: 25px;
+}
+.container-form h4 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-weight: 900;
+    
+}
+
+.container-form h6 {
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 30px;
+    font-weight: 900;
+}
+
+.container-form p {
+    font-family: 'Poppins';
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.input {
+    width: 45%;
+    height: 35px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #ddd;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    
+      
+}
+.inputx {
+    width: 30%;
+    height: 35px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #ddd;
+    margin-left: 30px;
+    
+    
+      
+}
+.inputd {
+    width: 14%;
+    height: 35px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #ddd;
+    margin: 10px;
+    
+    
+
+}
+
+
+.input2 {
+    width: 93%;
+    height: 35px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #ddd;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    
+      
+}
+
+.input::placeholder {
+    padding-left: 20px;
+    color: rgb(160, 160, 160);
+}
+
+
+
+
+.rooms {
+    position: relative;
+    width: 100%;
+    height: 35px;   
+    display: flex;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+    
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-col h4 {
+    font-size: 14px;
+    padding: 0px;
+
+}
+.flex-col a {
+    background-color: #38ADA9;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 850px){
+    .container-form {
+        width: 90%;
+    }
+    .container-form h4 {
+        font-size: 16px;
+    }
+    .container-form h6 {
+        font-size: 12px;
+    }
+    .mobile-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .input , .input2{
+        width: 80%;
+                         
+    }
+    .inputx {
+        width: 50%;
+    }
+    .inputd {
+        width: 38%;
+    }
+    .rooms {
+        margin-bottom: 40px;
+    }
+
+}
+
+/*        end of request a quote page             */
+
+
+/* Blog Page */
+
+.head-blog h3 {
+    font-family: 'Blackadder ITC';
+    text-align: center;
+    color: #38ADA9;
+}
+
+.head-blog h2 {
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: 900;
+}
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.in-posts {
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 500px;
+    border:1px solid rgba(146, 146, 146, 0.432);
+}
+
+.in-posts-pic {
+    width: 100%;
+    height: 345px;
+    background-size: 100%;
+}
+
+.in-posts-pic1{
+    background-image: url(pictures/Declutter-Bins-Clean-Mama.png);
+}
+.in-posts-pic2 {
+    background-image: url(pictures/clean-mama-clutter-challenge.png);
+}
+ .in-posts-pic3 {
+    background-image: url(pictures/Declutter-Order-By-Clean-Mama.jpg);
+}
+.in-posts-pic4 {
+    background-image: url(pictures/CM_New-Year-Sale-v2.jpg);
+}
+.in-posts-pic5 {
+    background-image: url(pictures/50-Things-Toss-Or-Donate-By-Clean-Mama.jpg);
+}
+.in-posts-pic6 {
+    background-image: url(pictures/CM_Clutter-Handbook-Mockup-01_square_1024x1024@2x.jpg);
+}
+
+
+.in-posts h1 {
+    margin-top: 50px;    
+    font-size: 20px;
+    font-family: 'Sitka Small';
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .in-posts-pic {
+        background-repeat: no-repeat;
+        height: 20em;
+    }
+    .in-posts {
+        height: 30%;
+       
+    }
+    .in-posts h1 {
+        margin-top: 10px;
+    }
+
+}

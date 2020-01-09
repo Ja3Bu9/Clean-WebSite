@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+body,html {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Green bare in each pages as title */
+
+/* About Us Page */
+ .aboutUs-text {
+    background-image: url(brown-desk.jpg);
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
+
+.aboutUs-text .glass {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    line-height: 2;
+    position: relative;
+    background-color: rgba(56, 172, 168, 0.5);
+    min-height: calc(70vh - 20px);
+}
+
+.aboutUs-text .glass a{
+    color: white;
+}
+
+.aboutUs-text .glass a:hover{
+    color: #38ADA9;
+}
+
+.aboutUs-text h2 {
+    color: #E1F8DB;
+}
+
+.our-achievement {
+    margin: 50px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-achievement h1 {
+    font-weight: normal;
+}
+
+.our-achievement .achieves {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.our-achievement .achieves .achieve {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.our-achievement .achieves .achieve .number {
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 3px;
+}
+
+.our-achievement .achieves .achieve .of {
+    color: #38ADA9;
+    font-size: 1.5em;
+    padding: 3px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.our-achievement .achieves .achieve .because {
+    text-align: center;
+    padding: 3px;
+    line-height: 2;
+}
+
+/* Pricing Page Style */
+.pricing-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+.pricing-table h1{
+    color: #38ADA9;
+    font-weight: normal;
+    text-align: center;
+}
+
+.pricing-table .pricing-planes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    
+}
+
+.pricing-table .pricing-planes .plane{
+    color: #7C7C7C;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EFEFEF;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+    padding: 20px 0 0 0;
+    width: 230px;
+    min-height: 400px;
+}
+.pricing-table .pricing-planes .plane .material-icons{
+    color: #38ADA9;
+    font-size: 2.5em;
+}
+.pricing-table .pricing-planes .plane .place{
+    color: #38ADA9;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.pricing-table .pricing-planes .plane hr{
+    width: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #EFEFEF;
+}
+
+.pricing-table .pricing-planes .plane .price{
+    font-size: 2em;
+}
+.pricing-table .pricing-planes .plane .period{
+    font-size: .8em;
+}
+
+.pricing-table .pricing-planes .plane .includes{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 15px 0;
+    font-size: .8em;
+}
+.pricing-table .pricing-planes .plane .includes li{
+    padding: 5px 0;
+}
+
+
+.pricing-table .pricing-planes .plane .subs{
+    background-color: #38ADA9;
+    color: white;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    text-decoration: none;
+}
+
+/* Contact Style */
+.contact-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contact-body .contact-address,
+.contact-body .contact-form{
+    border: 1px #B3B3B3 solid;
+    border-radius: 2px;
+    margin: 8px;
+}
+
+
+.contact-body .contact-form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+    padding: 25px;
+    flex-grow: 4;
+}
+
+.contact-body .contact-form .input-group{
+    display: flex;
+}
+.contact-body .contact-form .input-group .input{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.contact-body .contact-form .input-group .input:last-child{
+    margin-right: 0;
+}
+.contact-body .contact-form .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.contact-body .contact-form .input input{
+    outline: none;
+    border-width: 0 0 2px 0;
+    border-color: #38ADA9;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .9em;
+}
+.contact-body .contact-form .input textarea{
+    outline: none;
+    border-width: 0 0 2px 0;
+    border-color: #38ADA9;
+    padding: 5px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .9em;
+}
+.contact-body .contact-form .input input::placeholder,
+.contact-body .contact-form .input textarea::placeholder{
+    color: #BFBFBF;
+}
+.contact-body .contact-form input[type="submit"]{
+    outline: none;
+    border: none;
+    background-color: #38ADA9;
+    color: white;
+    padding: 6px 40px;
+    border-radius: 20px;
+    align-self: flex-end;
+    margin-top: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+}
+.contact-body .contact-form .input label{
+    color: #38ADA9;
+    display: inline-block;
+    width: 80px;
+    box-sizing: border-box;
+}
+.contact-body .contact-form .input .warning{
+    display: none;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-body .contact-address{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-grow: 1;
+}
+.contact-body .contact-address .social-media{
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+.contact-body .contact-address .address-info{
+    font-size: 1.1em;
+    color: #3E3E3E;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+.contact-body .contact-address .address-info .contact-type{
+    color: #38ADA9;
+    margin-right: 10px;
+    display: inline-block;
+    width: 55px;
+}
+
+.contact-body .contact-address .map{
+    width: 100%;
+    height: 320px;
+    margin: 0 auto;
+}
+
+@media (max-width: 770px) {
+    /* About us page style mobile */
+    .our-achievement .achieves {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    /* Pricing Page style mobile */
+    .pricing-table h1{
+        font-size: 1.5em;
+    }
+
+    /* Contact mobile style */
+
+    .contact-body{
+        flex-direction: column;
+    }
+    .contact-body .contact-form .input-group{
+        flex-direction: column;
+    }
+
+    .contact-body .contact-form .input-group .input{
+        margin-right: 0;
+    }
+    .contact-body .contact-address .address-info{
+        align-self: center;
+    }
+}
